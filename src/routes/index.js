@@ -4,7 +4,7 @@ const { isLoggedIn } = require('../lib/auth');
 
 
 router.get('/', isLoggedIn, async (req, res) => {
-    res.render('Pages/Dashboard');
+    res.render('Pages/restaurante/list-restaurantes');
 });
 
 

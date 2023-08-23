@@ -6,7 +6,7 @@ const Restaurantes = {};
 
 Restaurantes.getListRestaurantes = async (req, res) => {
   const restaurantes = await pool.query('SELECT * FROM  restaurantes');
-    res.render('Pages/restaurante/list-restaurante', {restaurantes});
+    res.render('Pages/restaurante/list-restaurantes', {restaurantes});
 };
 
 Restaurantes.getAddRestaurantes = async (req, res) => {
