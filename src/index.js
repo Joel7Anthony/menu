@@ -65,7 +65,7 @@ app.use(myconnection(mysql, {
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'dijital'
+    database: 'digital'
 }))
 
 const options = {

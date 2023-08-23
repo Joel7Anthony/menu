@@ -35,7 +35,7 @@ const sociosModel = require('../models/socio.model');
 
 
 /*const sequelize = new Sequelize(
-  'dijital',
+  'digital',
   'root',
   '',
   {
