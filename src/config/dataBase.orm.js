@@ -1,7 +1,7 @@
 const { Sequelize } = require("sequelize");
 const mysql = require('mysql2/promise')
 
-const dbName = process.env.DB_SCHEMAS || "dijital";
+const dbName = process.env.DB_SCHEMAS || "digital";
 
 const { MYSQLHOST, MYSQLUSER, MYSQLPASSWORD, MYSQLDATABASE, MYSQLPORT, MYSQL_URI, } = require("../keys");
 
