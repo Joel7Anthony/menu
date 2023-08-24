@@ -36,7 +36,7 @@ passport.use('local.signin', new LocalStrategy({
     return done(null, false, req.flash('message', 'El email no existe'));
   }
 }));
-
+//registro
 passport.use(
   "local.signup",
   new LocalStrategy(
