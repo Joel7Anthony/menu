@@ -152,21 +152,8 @@
     font-size: 1.3rem;
 }
 
-.seccion-perfil-usuario .redes-sociales .boton-redes+.boton-redes {
-    margin-top: .5rem;
-}
 
-.seccion-perfil-usuario .boton-redes.facebook {
-    background-color: #5955FF;
-}
 
-.seccion-perfil-usuario .boton-redes.twitter {
-    background-color: #35E1BF;
-}
-
-.seccion-perfil-usuario .boton-redes.instagram {
-    background: linear-gradient(45deg, #000000, #40A7FF);
-}
 
 /* adaptacion a dispositivos */
 @media (max-width: 750px) {
@@ -179,22 +166,9 @@
         width: 95%;
     }
 
-    .seccion-perfil-usuario .redes-sociales {
-        position: relative;
-        flex-direction: row;
-        width: 100%;
-        left: 0;
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        align-items: center;
-        justify-content: center
-    }
+   
 
-    .seccion-perfil-usuario .redes-sociales .boton-redes+.boton-redes {
-        margin-left: 1rem;
-        margin-top: 0;
-    }
+    
 }
 
 .drag-area {
