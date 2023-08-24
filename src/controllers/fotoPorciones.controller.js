@@ -14,7 +14,7 @@ fotoPorcion.updateFoto = async (req, res) => {
         return res.status(400).redirect('/porciones');
     }
     sampleFile = req.files.sampleFile;
-    uploadPath = __dirname + '/../public/images/img-porciones/' + sampleFile.name;
+    uploadPath = __dirname + '/../public/images/img-porcione/' + sampleFile.name;
 
     console.log(sampleFile);
 

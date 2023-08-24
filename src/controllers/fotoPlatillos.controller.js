@@ -14,7 +14,7 @@ fotoPlatillo.updateFoto = async (req, res) => {
         return res.status(400).redirect('/platillos');
     }
     sampleFile = req.files.sampleFile;
-    uploadPath = __dirname + '/../public/images/img-platillos/' + sampleFile.name;
+    uploadPath = __dirname + '/../public/images/img-platillo/' + sampleFile.name;
 
     console.log(sampleFile);
 

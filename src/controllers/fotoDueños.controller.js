@@ -14,7 +14,7 @@ fotoDueño.updateFoto = async (req, res) => {
         return res.status(400).redirect('/dueños');
     }
     sampleFile = req.files.sampleFile;
-    uploadPath = __dirname + '/../public/images/img-dueños/' + sampleFile.name;
+    uploadPath = __dirname + '/../public/images/img-dueño/' + sampleFile.name;
 
     console.log(sampleFile);
 
