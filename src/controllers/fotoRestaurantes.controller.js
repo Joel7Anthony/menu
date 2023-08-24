@@ -14,7 +14,7 @@ fotoRestaurante.updateFoto = async (req, res) => {
         return res.status(400).redirect('/restaurantes');
     }
     sampleFile = req.files.sampleFile;
-    uploadPath = __dirname + '/../public/images/img-restaurantes/' + sampleFile.name;
+    uploadPath = __dirname + '/../public/images/img-restaurante/' + sampleFile.name;
 
     console.log(sampleFile);
 

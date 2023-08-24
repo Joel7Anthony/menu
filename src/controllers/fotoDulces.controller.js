@@ -14,13 +14,13 @@ fotoDulce.updateFoto = async (req, res) => {
         return res.status(400).redirect('/dulces');
     }
     sampleFile = req.files.sampleFile;
-    uploadPath = __dirname + '/../public/images/img-dulces/' + sampleFile.name;
+    uploadPath = __dirname + '/../public/images/img-dulce/' + sampleFile.name;
 
     console.log(sampleFile);
 
     sampleFile.mv(uploadPath, function (err) {
         if (err) return res.status(500).send(err);
-        pool.query('UPDATE dulces SET photo = ? WHERE id = ?', [sampleFile.name, id])
+        pool.query('UPDATE dulces SET foto = ? WHERE id = ?', [sampleFile.name, id])
         req.flash('success', 'Dulce actualizado');
         res.redirect('/dulces');
 

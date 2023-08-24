@@ -121,13 +121,13 @@ app.use('/socios', require('./routes/socios.routes'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public/images/img-profile')));
 app.use(express.static(path.join(__dirname, 'public/images/img-bebida')));
-app.use(express.static(path.join(__dirname, 'public/images/img-categorias')));
-app.use(express.static(path.join(__dirname, 'public/images/img-dueños')));
-app.use(express.static(path.join(__dirname, 'public/images/img-dulces')));
-app.use(express.static(path.join(__dirname, 'public/images/img-menus')));
-app.use(express.static(path.join(__dirname, 'public/images/img-platillos')));
-app.use(express.static(path.join(__dirname, 'public/images/img-porciones')));
-app.use(express.static(path.join(__dirname, 'public/images/img-restaurantes')));
+app.use(express.static(path.join(__dirname, 'public/images/img-categoria')));
+app.use(express.static(path.join(__dirname, 'public/images/img-dueño')));
+app.use(express.static(path.join(__dirname, 'public/images/img-dulce')));
+app.use(express.static(path.join(__dirname, 'public/images/img-menu')));
+app.use(express.static(path.join(__dirname, 'public/images/img-platillo')));
+app.use(express.static(path.join(__dirname, 'public/images/img-porcione')));
+app.use(express.static(path.join(__dirname, 'public/images/img-restaurante')));
 
 
 

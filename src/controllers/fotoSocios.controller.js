@@ -14,7 +14,7 @@ fotoSocio.updateFoto = async (req, res) => {
         return res.status(400).redirect('/socios');
     }
     sampleFile = req.files.sampleFile;
-    uploadPath = __dirname + '/../public/images/img-socios/' + sampleFile.name;
+    uploadPath = __dirname + '/../public/images/img-socio/' + sampleFile.name;
 
     console.log(sampleFile);
 
