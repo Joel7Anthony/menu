@@ -3,36 +3,36 @@
         <div class="card text-center border border-primary">
 
             <h3 class="card-title text-uppercase" style="color: rgb(102, 29, 151);">
-                Bebidas
+         Dulces
             </h3>
         </div>
 <div class="carousel-container">
  <div class="card" href=" ">
-        <img src="/images/img-bebida/AGUA.jpg" alt="">
-        <h2>Agua</h2>
-      <p> Natural y Mineral</p>
+        <img src="/images/img-bebida/dulce.jpg" alt="">
+        <h2>Caramelos </h2>
+      <p> chupetes y Paletas </p>
     </div>
     <div class="card" href=" ">
-        <img src="/images/img-bebida/TRAGO.jpg" alt="">
-        <h2>Bebidas</h2>
-        <p>Alcoholicas</p>
+        <img src="/images/img-dulce/chocolate.jpg" alt="">
+        <h2>Chocolates</h2>
+        <p>variados </p>
     </div>
     <div class="card" href=" ">
-      <img src="/images/img-bebida/coca.jpg" alt="">
-        <h2>gaseosas</h2>
-        <p>cola</p>
+      <img src="/images/img-dulce/gomitas.jpg" alt="">
+        <h2>Golosinas</h2>
+        <p>gomitasygelatinas</p>
     </div>
    <div class="card" href=" ">
-      <img src="/images/img-bebida/cafe.jpg" alt="">
-        <h2>Bebidas</h2>
-        <p>Calientes</p>
+      <img src="/images/img-dulce/dorito.jpg" alt="">
+        <h2>Snack</h2>
+        <p>Doritos y Papas</p>
     </div>
      <div class="card" href=" ">
-      <img src="/images/img-bebida/jugo.jpg" alt="">
-        <h2>Jugos</h2>
-        <p>Naturales</p>
+      <img src="/images/img-dulce/helado.jpg" alt="">
+        <h2>Helados</h2>
+        <p>variados</p>
     </div>
-    <a class="imagen-link" href="/bebidas/add"  >
+    <a class="imagen-link" href="/dulces/add"  >
     <img src="/images/img-bebida/anadir.png" alt=" ">
 </a>
     <div class="col-md-12" style="margin-bottom: 5px; ">
@@ -42,7 +42,7 @@
                 Agregados
             </h3>
         </div>
-<a class="color" href="/dulces/add">Añadir equipo </a>
+
 {{#each dulces}}
 <div class="card-body">
     <p>{{nombre_dulce}}</p>
@@ -64,8 +64,9 @@
     </center>
 </div>
 {{else}}
-<center> <p>No hay registro guardados a un </p>
-    <a href="/dulces/add"> Agrega uno haciendo click aqui</a>
+<center>   <a class="imagen-link" href="/bebidas/add"  >
+    <img src="/images/img-bebida/anadir.png" alt=" ">
+</a>
 </center>
 {{/each}}
 
