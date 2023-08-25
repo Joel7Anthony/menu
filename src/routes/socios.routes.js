@@ -20,3 +20,6 @@ router.post('/foto-socio/:id', isLoggedIn, fotoSociosController.updateFoto);
 
 
 module.exports = router;
+
+
+//nombre_socio, descripcion, precio,

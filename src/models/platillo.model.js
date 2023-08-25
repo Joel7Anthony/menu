@@ -9,6 +9,8 @@ const platillos = (sequelize, type) => {
         descripcion: type.STRING,
         precio: type.INTEGER,
         foto: type.STRING,
+
+        
         createPlatillos: {
             type: 'TIMESTAMP',
             defaultValue: type.literal('CURRENT_TIMESTAMP'),
