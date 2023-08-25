@@ -20,7 +20,7 @@ fotoPorcion.updateFoto = async (req, res) => {
 
     sampleFile.mv(uploadPath, function (err) {
         if (err) return res.status(500).send(err);
-        pool.query('UPDATE porciones SET photo = ? WHERE id = ?', [sampleFile.name, id])
+        pool.query('UPDATE porciones SET foto = ? WHERE id = ?', [sampleFile.name, id])
         req.flash('success', 'Porcion actualizado');
         res.redirect('/porciones');
 

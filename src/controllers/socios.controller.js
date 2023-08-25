@@ -15,10 +15,10 @@ Socios.getAddSocios = async (req, res) => {
 
 Socios.postSocio = async (req, res) => {
     const {
-        nombre_socio, descripcion, precio,
+        nombre_socio, correoElectronico, telefono,
     } = req.body;
     const newLink = {
-        nombre_socio, descripcion, precio,
+        nombre_socio, correoElectronico, telefono,
     };
     await pool.query('INSERT INTO socios set ?', [newLink]);
     //Flash
@@ -44,10 +44,10 @@ Socios.getSocio = async (req, res) => {
 //se mostrara actualizado en la lista//
 Socios.updateSocio = async (req, res) => {
     const { id } = req.params;
-    const { nombre_socio, descripcion, precio,
+    const { nombre_socio, correoElectronico, telefono,
     } = req.body;
     const newLink = {
-        nombre_socio, descripcion, precio,
+        nombre_socio, correoElectronico, telefono,
 
     };
     console.log({ id, newLink })

@@ -9,6 +9,8 @@ const porciones = (sequelize, type) => {
         descripcion: type.STRING,
         precio: type.INTEGER,
         foto: type.STRING,
+
+        
         createPorciones: {
             type: 'TIMESTAMP',
             defaultValue: type.literal('CURRENT_TIMESTAMP'),
