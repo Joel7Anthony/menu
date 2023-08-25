@@ -9,6 +9,7 @@ const restaurantes = (sequelize, type) => {
         descripcion: type.STRING,
         telefono: type.INTEGER,
         foto: type.STRING,
+        dueno: type.STRING,
 
         createRestaurante: {
 
