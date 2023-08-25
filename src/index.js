@@ -128,7 +128,7 @@ app.use(express.static(path.join(__dirname, 'public/images/img-menu')));
 app.use(express.static(path.join(__dirname, 'public/images/img-platillo')));
 app.use(express.static(path.join(__dirname, 'public/images/img-porcione')));
 app.use(express.static(path.join(__dirname, 'public/images/img-restaurante')));
-
+app.use(express.static(path.join(__dirname, 'public/images/img-socio')));
 
 
 // starting the server
