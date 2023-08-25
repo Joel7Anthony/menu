@@ -15,10 +15,10 @@ Bebidas.getAddBebidas = async (req, res) => {
 
 Bebidas.postBebida = async (req, res) => {
     const {
-        nombre_bebida, descripcion, precio,
+        nombre_bebida, descripcion, precio
     } = req.body;
     const newLink = {
-        nombre_bebida, descripcion, precio,
+        nombre_bebida, descripcion, precio
     };
     await pool.query('INSERT INTO bebidas set ?', [newLink]);
     //Flash
@@ -44,10 +44,10 @@ Bebidas.getBebida = async (req, res) => {
 //se mostrara actualizado en la lista//
 Bebidas.updateBebida = async (req, res) => {
     const { id } = req.params;
-    const { nombre_bebida, descripcion, precio,
+    const { nombre_bebida, descripcion, precio
     } = req.body;
     const newLink = {
-        nombre_bebida, descripcion, precio,
+        nombre_bebida, descripcion, precio
 
     };
     console.log({ id, newLink })

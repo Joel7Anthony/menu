@@ -5,17 +5,17 @@
         </h3>
     </div>
 </div>
-<link rel="stylesheet" href="/css/teams.css">
+<link rel="stylesheet" href="/css/teams.css" />
 <div class="card-body">
-    <form action="/restaurantes/edit-restaurantes/{{team.id}}" method="POST">
+    <form action="/restaurantes/edit-restaurantes/{{restaurante.id}}" method="POST">
         <div id="logo"></div>
         <div id="title">Crear</div>
         <div id="sub-title">restaurante a ser agregado</div>
         <div id="input">
             <div id="inputBox">
                 <label>nombre restaurante</label>
-                <input type="text" value="{{restaurante.nombre_restaurante}}" name="nombre restaurante" class="form-control"
-                    placeholder="nombre restaurante" />
+                <input type="text" value="{{restaurante.nombre_restaurante}}" name="nombre restaurante"
+                    class="form-control" placeholder="nombre restaurante" />
             </div>
             <div id="inputBox">
                 <label>descripcion</label>
@@ -33,10 +33,3 @@
         </div>
     </form>
 </div>
-</div>
-</div>
-</div>
-
-
-
-
