@@ -15,25 +15,25 @@ body{
     width: 60%;
     height: 80%;
     /* padding: 25px; */
-    background-color: gray;
+    background-color: rgb(174, 27, 27);
     border-radius: 20px;
     box-shadow:
-		0px 0px 16px #a2a2a3;
+		0px 0px 16px #b463da;
 		/* -8px -8px 16px white; */
 }
 .left{
     z-index: 100;
     box-shadow:
-    8px 8px 16px #a2a2a3,
-    -8px -8px 16px white;
+    8px 8px 16px #000000,
+    -8px -8px 16px rgb(255, 255, 255);
     float: left;
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgb(246, 248, 246);
-    width: 40%;
+    background-color: rgb(84, 186, 220);
+    width: 120%;
     background-color: f8f6f6;
-    height: 70vh;
+    height: 75vh;
     border-radius: 15px 0px 0px 15px;
 }
 .titulo{
@@ -49,7 +49,7 @@ body{
     letter-spacing: .25px;
     text-align: center;
     line-height: 1.6;
-    color: #a4a6a8;
+    color: #000000;
 }
 button{
     cursor: pointer;
@@ -78,7 +78,7 @@ button{
     align-items: center;
     text-align: center;
     background-color: rgb(241, 245, 245);
-    width: 60%;
+    width: 120%;
     height: 70vh;
     border-radius: 0px 15px 15px 0px;
 }
