@@ -8,16 +8,19 @@ body {
 
 }
 .container0{
-  background-color: #cbbbf0;
-  position: relative;
-  left: 10px;
-  width: 100% ; 
+  background-color: #6ccc1e;
 
 
 }
-#img{
-   
+
+.container img {
+  width: 120%;
+
 }
+
+
+
+
 #title {
   font-size: 36px;
   font-weight: 10%;
@@ -35,7 +38,7 @@ body {
 }
 
 #input {
-  margin-top: -35%;
+  margin-top: -40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,32 +73,9 @@ input[type="submit"] {
   cursor: pointer;
   font-size: 16px;
   position: relative;
-  left: 250%;
+  left: 25%;
 }
 
 input[type="submit"]:hover {
   background-color: #c029c5;
 }
-/* adaptacion a dispositivos */
-@media (max-width: 750px) {
-  .container0 {
-     
-      width: 95%;
-  }
-  #sub-title {
-    font-size: 10px;
-    position: central;
-  }
-
-  #inputBox {
-    max-width: 1500%;
-    position: central;
-  }
-
-  input[type="submit"] {
-    font-size: 14px;
-    position: central;
-  }
- 
-
-  

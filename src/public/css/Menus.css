@@ -2,13 +2,14 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 10%;
     padding: 0;
-    margin-top: 5px;
     background-color: #ececec;
+    margin-top: 5px;
 
   
   }
   .container0{
-    background-color: #FFC8DD;
+    background-color: #ac774c;
+  
 
   }
 
@@ -43,9 +44,8 @@ body {
     align-items: center;
     position: relative;
     left: 10px;
-    width:145% ; 
+    width:150% ; 
    }
-  
   #inputBox {
     margin: 10px 0;
     width: 300px;

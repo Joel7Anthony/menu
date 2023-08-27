@@ -1,39 +1,46 @@
-<link rel="stylesheet" href="/css/list-bebidas.css">
+<link rel="stylesheet" href="/css/list-restaurante.css">
  <div class="col-md-12" style="margin-bottom: 5px; ">
         <div class="card text-center border border-primary">
 
             <h3 class="card-title text-uppercase" style="color: rgb(102, 29, 151);">
-                Bebidas
+                Restaurante
             </h3>
         </div>
 <div class="carousel-container">
  <div class="card" href=" ">
-        <img src="/images/img-bebida/AGUA.jpg" alt="">
-        <h2>Agua</h2>
-      <p> Natural y Mineral</p>
+        <img src="/images/img-restaurante/kfc.jpeg" alt="">
+        <h2>KFC </h2>
+ 
     </div>
     <div class="card" href=" ">
-        <img src="/images/img-bebida/TRAGO.jpg" alt="">
-        <h2>Bebidas</h2>
-        <p>Alcoholicas</p>
+        <img src="/images/img-restaurante/mac.jpeg" alt="">
+        <h2>MaCdonals</h2>
+       
     </div>
     <div class="card" href=" ">
-      <img src="/images/img-bebida/coca.jpg" alt="">
-        <h2>gaseosas</h2>
-        <p>cola</p>
+      <img src="/images/img-restaurante/hacienda.jpeg" alt="">
+        <h2>Ushimana</h2>
+   
     </div>
    <div class="card" href=" ">
-      <img src="/images/img-bebida/cafe.jpg" alt="">
-        <h2>Bebidas</h2>
-        <p>Calientes</p>
+      <img src="/images/img-restaurante/san.jpeg" alt="">
+        <h2>San Bartolo</h2>
+      
     </div>
      <div class="card" href=" ">
-      <img src="/images/img-bebida/jugo.jpg" alt="">
-        <h2>Jugos</h2>
-        <p>Naturales</p>
+      <img src="/images/img-restaurante/abue.jpeg" alt="">
+        <h2>Abuelita</h2>
+      
     </div>
-    <a class="imagen-link" href="/bebidas/add"  >
-    <img src="/images/img-bebida/anadir.png" alt=" ">
+      <div class="col-md-12" style="margin-bottom: 5px; ">
+        <div class="card text-center border border-primary">
+
+            <h3 class="card-title text-uppercase" style="color:rgb(102, 29, 151);">
+             Registre su  Restaurante aki aki
+            </h3> 
+        </div>
+    <a class="imagen-link" href="/restaurantes/add"  >
+     <img src="/images/img-bebida/anadir.png" alt=" ">
 </a>
     <div class="col-md-12" style="margin-bottom: 5px; ">
         <div class="card text-center border border-primary">
@@ -42,7 +49,7 @@
                 Agregados
             </h3>
         </div>
-<a class="color" href="/restaurantes/add">Añadir equipo </a>
+
 {{#each restaurantes}}
 <div class="card-body">
     <p>{{nombre_restaurante}}</p>
@@ -66,9 +73,7 @@
     </center>
 </div>
 {{else}}
-<center> <p>No hay registro guardados a un </p>
-    <a href="/restaurantes/add"> Agrega uno haciendo click aqui</a>
-</center>
+<center> 
 {{/each}}
 
 
