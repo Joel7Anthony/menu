@@ -15,10 +15,10 @@ Menus.getAddMenus = async (req, res) => {
 
 Menus.postMenu = async (req, res) => {
     const {
-        nombre_menu, descripcion, precio, foto,
+        nombre_menu, descripcion, precio, foto
     } = req.body;
     const newLink = {
-        nombre_menu, descripcion, precio, foto,
+        nombre_menu, descripcion, precio, foto
     };
     await pool.query('INSERT INTO menus set ?', [newLink]);
     //Flash
@@ -44,10 +44,10 @@ Menus.getMenu = async (req, res) => {
 //se mostrara actualizado en la lista//
 Menus.updateMenu = async (req, res) => {
     const { id } = req.params;
-    const { nombre_menu, descripcion, precio, foto,
+    const { nombre_menu, descripcion, precio, foto
     } = req.body;
     const newLink = {
-        nombre_menu, descripcion, precio, foto,
+        nombre_menu, descripcion, precio, foto
 
     };
     console.log({ id, newLink })

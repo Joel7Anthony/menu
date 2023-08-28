@@ -15,10 +15,10 @@ Dueños.getAddDueños = async (req, res) => {
 
 Dueños.postDueño = async (req, res) => {
     const {
-      nombre_dueño,  descripcion, precio, 
+      nombre_dueño,  descripcion, precio
     } = req.body;
     const newLink = {
-      nombre_dueño, descripcion, precio, 
+      nombre_dueño, descripcion, precio
     };
     await pool.query('INSERT INTO dueños set ?', [newLink]);
      //Flash

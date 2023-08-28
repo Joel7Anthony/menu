@@ -7,24 +7,23 @@ body {
 
 
 }
-.container0{
+
+.container0 {
   background-color: #cbbbf0;
   position: relative;
   left: 10px;
-  width: 100% ; 
+  width: 100%;
 
 
 }
-#img{
-   
-}
+
 #title {
   font-size: 36px;
   font-weight: 10%;
   margin-top: 20px;
 
 
-  
+
 }
 
 #sub-title {
@@ -41,8 +40,9 @@ body {
   align-items: center;
   position: relative;
   left: 10px;
-  width:150% ; 
- }
+  width: 150%;
+}
+
 #inputBox {
   margin: 10px 0;
   width: 300px;
@@ -76,12 +76,14 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #c029c5;
 }
+
 /* adaptacion a dispositivos */
 @media (max-width: 750px) {
   .container0 {
-     
-      width: 95%;
+
+    width: 95%;
   }
+
   #sub-title {
     font-size: 10px;
     position: central;
@@ -96,6 +98,4 @@ input[type="submit"]:hover {
     font-size: 14px;
     position: central;
   }
- 
-
-  
+}
