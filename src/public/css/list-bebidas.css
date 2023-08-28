@@ -141,3 +141,31 @@ input[type="submit"] {
     border-radius: 3px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .card.text-center {
+        width: 10%;
+        padding: 20%;
+        left: 0;
+    }
+    
+    .card-body {
+        max-width: 10%;
+        left: 0;
+        padding: 1px;
+        gap: 100px;
+    }
+
+    .carousel-container {
+        padding: 1px;
+        gap: 100px;
+    }
+
+    .imagen-link img {
+        max-width: 5px;
+    }
+
+    .card img {
+        max-width: 6px;
+    }
+}
