@@ -153,11 +153,12 @@ input[type="submit"] {
         max-width: 10%;
         left: 0;
         padding: 1px;
+        gap: 100px;
     }
 
     .carousel-container {
         padding: 1px;
-        gap: 10px;
+        gap: 100px;
     }
 
     .imagen-link img {
