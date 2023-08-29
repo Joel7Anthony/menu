@@ -143,29 +143,30 @@ input[type="submit"] {
 }
 
 @media (max-width: 768px) {
-    .card.text-center {
-        width: 10%;
-        padding: 20%;
-        left: 0;
-    }
-    
-    .card-body {
-        max-width: 10%;
-        left: 0;
-        padding: 1px;
-        gap: 100px;
-    }
-
     .carousel-container {
-        padding: 1px;
-        gap: 100px;
+        justify-content:center;
+        padding: 10px;
     }
 
-    .imagen-link img {
-        max-width: 5px;
+    .card {
+        max-width: 100%;
+    
+    }
+  
+    .col-md-12 {
+        left: 0;
     }
 
-    .card img {
-        max-width: 6px;
+    .card.text-center {
+        width: 100%;
+        left: 0;
+    }
+
+    .card-body {
+        max-width: 100%;
+        left: 20px;
     }
 }
+
+
+

@@ -77,25 +77,33 @@ input[type="submit"]:hover {
   background-color: #c029c5;
 }
 
-/* adaptacion a dispositivos */
 @media (max-width: 750px) {
   .container0 {
-
-    width: 95%;
-  }
-
-  #sub-title {
-    font-size: 10px;
-    position: central;
-  }
-
-  #inputBox {
-    max-width: 1500%;
-    position: central;
-  }
-
-  input[type="submit"] {
-    font-size: 14px;
-    position: central;
-  }
-}
+    /* Reducir el ancho del contenedor */
+      max-width: 100%;
+      position: relative; /* Ajustar el ancho máximo del inputBox */
+      left: -15%;
+  
+    }
+  
+    #sub-title {
+      font-size: 18px; /* Ajustar el tamaño de fuente */
+      text-align: center;
+      left: 0;
+    }
+  
+    #inputBox {
+      position: relative; /* Ajustar el ancho máximo del inputBox */
+      left: -15%;
+      justify-content:center;
+      padding: 10px;
+    
+    }
+  
+    input[type="submit"] {
+      max-width: 100%;
+      position: relative; /* Ajustar el ancho máximo del inputBox */
+      left: 50%;
+    }
+    
+    }

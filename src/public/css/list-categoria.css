@@ -142,12 +142,31 @@ input[type="submit"] {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  .card.text-center {
-      width: 90%;
-      left: 5%;
+  .carousel-container {
+    justify-content:center;
+    padding: 10px;
+}
+
+.card {
+    max-width: 100%;
+
+}
+
+
+  .col-md-12 {
+      left: 0;
   }
+
+  .card.text-center {
+      width: 100%;
+      left: 0;
+  }
+
   .card-body {
-      max-width: 90%;
-      left: 5%;
+      max-width: 100%;
+      left: 20px;
   }
 }
+
+
+
