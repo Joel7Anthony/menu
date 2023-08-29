@@ -7,7 +7,7 @@ const socios = (sequelize, type) => {
         },
         nombre_socio: type.STRING,
         apellidoSocio: type.STRING,
-        correoElectronico: type.INTEGER,
+        correoElectronico: type.STRING,
         telefono: type.INTEGER,
         foto: type.STRING,
 

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/css/edit.css">
 <div class="container">
-    <form action="/teams/edit-teams/{{team.id}}" method="POST">
+    <form action="/socios/edit-socios/{{socio.id}}" method="POST">
         <div id="logo"></div>
         <div id="title">Editar Socio</div>
         <div id="input">
@@ -11,18 +11,18 @@
             </div>
             <div id="inputBox">
                 <label>apellido socio</label>
-                <input type="text" value="{{socio.apellido_socio}}" name="apellido_socio" class="form-control"
+                <input type="text" value="{{socio.apellidoSocio}}" name="apellidoSocio" class="form-control"
                     placeholder="apellido socio" />
             </div>
             <div id="inputBox">
                 <label>correo electronico</label>
-                <input type="text" value="{{socio.correo_electronico}}" class="form-control" name="correo_electronico"
-                    placeholder="correo electronico" autofocus />
+                <input type="text" value="{{socio.correoElectronico}}" class="form-control" name="correoElectronico"
+                    placeholder="Email"/>
             </div>
             <div id="inputBox">
                 <label>telefono</label>
                 <input type="text" value="{{socio.telefono}}" name="telefono" class="form-control"
-                    placeholder="telefono" />
+                    placeholder="telefono"  autofocus />
             </div>
             
             <div id="inputBox">

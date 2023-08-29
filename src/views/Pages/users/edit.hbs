@@ -1,12 +1,12 @@
 {{#if user}}
+
 <div class="container p-4">
     <div class="row">
-        <div class="col-md-4 mx-auto">
-
-            <div class="card border border-primary">
-                <div class="card-body">
+   
+<link rel="stylesheet" href="/css/edit.css" />
+                <div class="container">
                     <form action="/users/edit-users/{{user.id}}" method="POST">
-                        <h1 style="color: rgb(11, 118, 206);">Editar</h1>
+                        <h1 style="color: rgb(0, 0, 0);">Editar</h1>
                         <div class="form-group">
                             <input type="text" value="{{user.name}}" name="name" class="form-control"
                                 placeholder="Nombre" required autofocus>
